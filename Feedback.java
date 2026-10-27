@@ -1,0 +1,2 @@
+import java.util.UUID;
+public class Feedback { private final String id,participantName,message; private final int rating; public Feedback(String participantName,int rating,String message){if(rating<1||rating>5)throw new IllegalArgumentException("Rating must be 1 to 5");this.id="F"+UUID.randomUUID().toString().substring(0,7).toUpperCase();this.participantName=participantName;this.rating=rating;this.message=message;} public String toFileLine(){return id+"|"+participantName+"|"+rating+"|"+message;} }

@@ -1,0 +1,1 @@
+public enum EventStatus { PLANNED, CONFIRMED, COMPLETED, CANCELLED }

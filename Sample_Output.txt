@@ -1,0 +1,22 @@
+EVENT MANAGEMENT SYSTEM
+1. View Events
+2. View Fee Structure
+3. Calculate Package Price
+4. Register Participant
+5. Create Booking
+6. View Sample Report
+0. Exit
+
+Sample price calculation:
+Base Price : Rs. 10000.00
+Discount   : Rs. 1000.00 (10.0%)
+Final Price: Rs. 9000.00
+
+Sample booking:
+Booking created successfully!
+Ticket ID : TXXXXXXXX
+Event     : Birthday Party
+Package   : Standard
+Subtotal  : Rs. 10000.00
+Discount  : Rs. 0.00
+TOTAL     : Rs. 10000.00

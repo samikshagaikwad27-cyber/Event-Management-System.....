@@ -1,0 +1,31 @@
+EVENT MANAGEMENT SYSTEM — VIVA QUESTIONS
+1. What is the aim of this project?
+   To manage event listings, fees, registrations, bookings, tickets and bills.
+2. Which programming language is used?
+   Java.
+3. Which OOP concepts are used?
+   Classes, objects, encapsulation, constructors and enums.
+4. What is a class?
+   A blueprint used to create objects.
+5. What is an object?
+   An instance of a class.
+6. What is an enum?
+   A type that defines a fixed set of constants, such as BookingStatus.
+7. How is fee structure handled?
+   FeeManager stores Basic, Standard and Premium prices for each event.
+8. How is discount calculated?
+   Discount = Base Price × Discount Percentage / 100.
+9. How is the final price calculated?
+   Final Price = Base Price − Discount.
+10. How is data stored?
+    In text files inside the data folder using FileHandler.
+11. What is exception handling?
+    Handling errors safely using try/catch.
+12. Does this project accept real online payments?
+    No. Payment classes are models only; no real payment gateway is connected.
+13. What validation is done?
+    Name, email, phone and discount percentage are checked.
+14. What is the role of TicketGenerator?
+    It creates a unique sample ticket for a booking.
+15. What can be improved in future?
+    Database connectivity, login, GUI, payment gateway and email notifications.

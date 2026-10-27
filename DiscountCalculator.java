@@ -1,0 +1,1 @@
+public class DiscountCalculator { public static double apply(double amount,double percent){if(!Validation.validDiscount(percent))throw new IllegalArgumentException("Discount must be from 0 to 100");return PriceCalculator.calculateFinalPrice(amount,percent);} }

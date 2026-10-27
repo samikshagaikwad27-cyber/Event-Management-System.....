@@ -1,0 +1,2 @@
+import java.util.UUID;
+public class Payment { private final String id,bookingId,method; private final double amount; private final PaymentStatus status; public Payment(String bookingId,double amount,PaymentMethod method){this.id="PAY"+UUID.randomUUID().toString().substring(0,6).toUpperCase();this.bookingId=bookingId;this.amount=amount;this.method=method.name();this.status=PaymentStatus.PENDING;} public String toFileLine(){return id+"|"+bookingId+"|"+amount+"|"+method+"|"+status;} }
